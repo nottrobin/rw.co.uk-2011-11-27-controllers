@@ -20,6 +20,11 @@ https://nottrobin@github.com/nottrobin/robinwinslow.co.uk.git
 This demonstrates an absolute separation of view (json templates)
 from controller.
 
-I recommend that the two scripts (node_server.js and php_server.php) be
-served via proxy from a dedicated web server - I use nginx.
+Note that while node_server.js can be run independently as an actual server
+which will listen on http://127.0.0.1:8081 (`node node_server.js`)
+php_controller.php is only a controller and must be run from a dedicated server
+either directly or as a FastCGI process.
+
+NB: I would recommend that you still use another server to proxy to node_server.js.
+    I use nginx
 
