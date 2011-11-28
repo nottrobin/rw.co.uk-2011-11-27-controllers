@@ -10,9 +10,12 @@ At the time of writing, only the following two languages are used:
 
 And I have only written controller for robinwinslow.co.uk.
 
-Both controller read from the same JSON templates files,
+Both controllers are currently setup to read from the same json-templates files,
 which can be set at the top of node_sites/robinwinslow.co.uk.js
 and php_sites/robinwinslow.co.uk.php respectively.
+
+These json-template files are located in my "robinwinslow.co.uk" repository:
+https://nottrobin@github.com/nottrobin/robinwinslow.co.uk.git
 
 This demonstrates an absolute separation of view (json templates)
 from controller.
