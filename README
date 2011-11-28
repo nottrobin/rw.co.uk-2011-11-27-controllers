@@ -1,0 +1,22 @@
+===
+Web controllers
+===
+
+Contained herein are web controller written in different languages.
+
+At the time of writing, only the following two languages are used:
+ - PHP
+ - NodeJS
+
+And I have only written controller for robinwinslow.co.uk.
+
+Both controller read from the same JSON templates files,
+which can be set at the top of node_sites/robinwinslow.co.uk.js
+and php_sites/robinwinslow.co.uk.php respectively.
+
+This demonstrates an absolute separation of view (json templates)
+from controller.
+
+I recommend that the two scripts (node_server.js and php_server.php) be
+served via proxy from a dedicated web server - I use nginx.
+
