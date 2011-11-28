@@ -1,6 +1,11 @@
 <?php
+/* PHP controller
+ * This controller switches between site modules depending on domain name
+ * This script should be run directly from the server
+ * Either as a FastCGI process or directly.
+ **/
 
-// Add php-fastcgi_modules to include path
+// Add php modules to include path
 set_include_path(get_include_path() . PATH_SEPARATOR . './php_modules');
 
 $host = $_SERVER['HTTP_HOST'];
