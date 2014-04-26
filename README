@@ -15,7 +15,7 @@ which can be set at the top of node_sites/robinwinslow.co.uk.js
 and php_sites/robinwinslow.co.uk.php respectively.
 
 These json-template files are located in my "robinwinslow.co.uk" repository:
-https://nottrobin@github.com/nottrobin/robinwinslow.co.uk.git
+https://nottrobin@github.com/nottrobin/rw.co.uk-2011-11-27-view.git
 
 This demonstrates an absolute separation of view (json templates)
 from controller.
